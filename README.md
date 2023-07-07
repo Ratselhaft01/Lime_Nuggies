@@ -1,5 +1,6 @@
-# Lime_Nuggies
+# Nuggies Model Explainer (Lime) Tutorial
 How to use model explainers
+
 ## Resources
 * [Lime GitHub Repo](https://github.com/marcotcr/lime)
 * [Lime Documentation](https://lime-ml.readthedocs.io/en/latest/)
