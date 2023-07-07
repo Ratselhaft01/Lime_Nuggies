@@ -1,16 +1,16 @@
 # Lime_Nuggies
 How to use model explainers
 ## Resources
-* https://github.com/marcotcr/lime
-* https://lime-ml.readthedocs.io/en/latest/
-* https://www.geeksforgeeks.org/introduction-to-explainable-aixai-using-lime/
+* [Lime GitHub Repo](https://github.com/marcotcr/lime)
+* [Lime Documentation](https://lime-ml.readthedocs.io/en/latest/)
+* [Lime Tutorial (GeeksforGeeks)](https://www.geeksforgeeks.org/introduction-to-explainable-aixai-using-lime/)
 
 ## Why are Model Explainers Helpful?
 
 //A brief explanation of what model explainers are, an overview of Lime, and how they can be used.
 
 ### Helpful Video
-* https://youtu.be/hUnRCxnydCc
+* [Brief Introduction to Lime](https://youtu.be/hUnRCxnydCc)
 
 ## Applying LIME
 
