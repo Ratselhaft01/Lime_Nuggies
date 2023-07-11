@@ -19,7 +19,7 @@ Local interpretable model-agnostic explanations (LIME) is a type of XAI method. 
 
 There are multiple different LIME explainer options that can be used in Python; we will be using the Lime package and the interpret package, which you can find on GitHub [here](https://github.com/marcotcr/lime) and [here](https://interpret.ml/docs/lime.html).
 
-Download the workbook above.
+Download the workbook titled "Model Explainers - Lime" located in this repository.
 
 ## What Does This Info Mean?
 
