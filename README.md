@@ -7,6 +7,9 @@ Let there be light." - [InterpretML](https://pypi.org/project/interpret/)
 ## Why are Model Explainers Helpful?
 
 //A brief explanation of what model explainers are, an overview of Lime, and how they can be used.
+Explainable artificial intelligence (XAI or "model explainers") is a "set of processes and methods that allows human users to comprehend and trust the results and output created by machine learning algorithms" ([IBM](https://www.ibm.com/watson/explainable-ai)). The point of Explainable AI is to allow a person to understand how an AI model is arriving at a specific result. This makes it easier to determine adjustments that need to be made to a model or whether or not a model can be trusted.
+
+Local interpretable model-agnostic explanations (LIME) is a type of XAI method. LIME focuses on approximating a model's behavior at a specific instance, and then allowing users to investigate that behavior. LIME explainers typically focus on local explanations rather than explanations of the overall behavior of a model. You can use the explanations that are provided to see how much each feature affected the end result, and what kind of impact it had. If you combine multiple local explanations, you can start to gain insight into how the model is using the data it has been provided to make its conclusions.
 
 ### Video Overview
 * [Introduction to Lime](https://youtu.be/hUnRCxnydCc)
@@ -16,6 +19,7 @@ Let there be light." - [InterpretML](https://pypi.org/project/interpret/)
 ## Applying LIME
 
 //A guide on how to apply LIME to their current models to understand what is happening.
+There are multiple different LIME explainer options that can be used in Python; we will be using the Lime package, which you can find on GitHub [here](https://github.com/marcotcr/lime).
 
 ## What Does This Info Mean?
 
