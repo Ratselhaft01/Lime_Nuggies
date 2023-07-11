@@ -23,17 +23,25 @@ Download the workbook above.
 
 ## What Does This Info Mean?
 
-Your Lime output should look something like this:
+Starting with the Lime package, your output should look something like this:
 
-![Lime regression output example](images/LimeRegressionOutputEx.png)
+![Lime regression output example (Lime package)](images/LimeEx.png)
 
 When you call the `explain_instance` method, Lime creates a linear model for the specific instance of the data that you gave it and makes a prediction.
 
 The intercept is the prediction Lime's model would have made if the weights of all the features were zero. Prediction_local is the prediction that Lime's model actually made. Right is the prediction that your model made.
 
-Looking at the charts, that chart on the far left is the prediction that the model made. The chart in the middle displays each of the features and their weights, as well as whether those weights are positive or negative. The longer the bar, the larger the weight is, which indicates that the feature had greater importance when determining the predicted value. The chart on the far right displays each feature and their actual weights.
+Looking at the charts, that chart on the far left is the prediction that the model made; sometimes you will see a bar to go with it, and sometimes you will not (like in this example). The chart in the middle displays each of the features and approximately how much the approximated model added to or removed from the intercept based on that feature to get its final result. Above each bar, you can see how the approximated model is using the feature to determine what value to add to or subtract from the final result. The chart on the far right displays each feature and their actual values.
 
-By creating explanations for several different instances and comparing them, you can start to gain insight into what your model is doing, and what features may or may not be important.
+Next, the interpret package. Your output should look something like this:
+
+![Lime regression output example (Interpret package)](images/InterpretLimeEx.png)
+
+Intercept displays the same information as the intercept returned by the Lime package, just as a bar on the chart. Actual is the real value of the target at that instance. Predicted is the final prediction that your model made at that instance.
+
+Each of the labels on the y-axis displays the feature and its value at that instance, and the bars represent the same information as the bars in the middle chart in the Lime package output.
+
+Regardless of which package you are using, by creating explanations for several different instances and comparing them, you can start to gain insight into what your model is doing, and what features may or may not be important.
 
 ## Resources
 * [Lime GitHub Repo](https://github.com/marcotcr/lime)
